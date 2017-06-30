@@ -5,7 +5,6 @@
 
 let gulp = require('gulp');
 let sass = require('gulp-sass');
-let browser = require('gulp-browser');
 
 let OUTPUT_DIRECTORY = 'public';
 
@@ -26,7 +25,6 @@ gulp.task('css', function () {
 
 gulp.task('js', function () {
     return gulp.src('js/app.js')
-        .pipe(browser.browserify())
         .pipe(gulp.dest(OUTPUT_DIRECTORY));
 });
 

@@ -1,0 +1,9 @@
+.social {
+    @include grid-row();
+    text-align: center;
+    img {
+        @include grid-column(3);
+        width: 65px;
+        float: none !important;
+    }
+}
