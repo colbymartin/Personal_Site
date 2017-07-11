@@ -5,13 +5,9 @@
 @include foundation-grid; 
 
 $header-font: 'Permanent Marker', cursive;
-$primary-font: 'Roboto', sans-serif;
+$primary-font: 'Ubuntu', sans-serif;
 
 @import 'header';
 @import 'social';
 @import 'about';
 @import 'portfolio';
-
-body {
-    // background-color: #008CA8;
-}
