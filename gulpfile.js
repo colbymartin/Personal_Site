@@ -24,12 +24,12 @@ gulp.task('css', function () {
 });
 
 gulp.task('js', function () {
-    return gulp.src('js/app.js')
+    return gulp.src('app.js')
         .pipe(gulp.dest(OUTPUT_DIRECTORY));
 });
 
 gulp.task('watch', ['default'], function () {
     gulp.watch('index.html', ['html']);
     gulp.watch('scss/*.scss', ['css']);
-    gulp.watch('js/*.js', ['js']);
+    gulp.watch('app.js', ['js']);
 });

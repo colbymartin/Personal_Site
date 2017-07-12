@@ -1,4 +1,10 @@
 .about {
     text-align: center;
     font-family: $primary-font;
+    .tag {
+        padding: 0 10% 0 10%;
+    }
+    .button {
+        margin: 10px 0 10px 0;
+    }
 }

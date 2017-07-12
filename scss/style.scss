@@ -11,3 +11,17 @@ $primary-font: 'Ubuntu', sans-serif;
 @import 'social';
 @import 'about';
 @import 'portfolio';
+
+
+.button {
+        padding: 8px;
+        border: 5px solid #1D1160;
+        background-color: #A1A1A4;
+        text-decoration: none;
+        color: black;
+        font-family: $header-font;
+}
+
+.hide {
+    display: none;
+}
