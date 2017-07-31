@@ -1,0 +1,22 @@
+header {
+    .menu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        vertical-align: bottom;
+        // position: absolute;
+        li {
+            display: inline-block;
+            margin-right: 1px;
+            a {
+                // display: block;
+                // min-width: 140px;
+                // height: 50px;
+                text-align: center;
+                // line-height: 50px;
+                text-decoration: none;
+                color: white;
+            }
+        }
+    }
+}

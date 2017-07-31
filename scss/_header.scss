@@ -1,14 +1,45 @@
 body {
     header {
-        text-align: center;
-        font-family: $header-font;
-        h1 {
-            margin: 0;
+            background: -webkit-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            background: -moz-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            background: -o-linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url(assets/desertRoad.jpg) no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+            text-align: center;
+            font-family: $header-font;
+            height: 100vh;
+            // vertical-align: middle;
+            // margin: auto;
+            color: white;
+            h1 {
+                margin: auto;
+                padding: 150px 5px 0 5px;
+                font-size: 40px;
+            }
+            h5 {
+                // padding-top: px;
+                font-size: 20px;
+            }
+            .menu {
+                list-style-type: none;
+                padding: 0;
+                // padding: 100px 0 0 0;
+                // position: absolute;
+                bottom: 5px;
+                li {
+                    display: inline-block;
+                    // margin-right: 1px;
+                    a {
+                        text-align: center;
+                        text-decoration: none;
+                        color: white;
+                    }
+                }
+            }
+            // border-bottom: 5px solid #1D1160;
         }
-        h5 {
-            margin: 0 0 5px 0;
-        }
-        margin: 10px 0px 20px 0px;
-        border-bottom: 5px solid #1D1160;
-    }
 }

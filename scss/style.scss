@@ -8,9 +8,11 @@ $header-font: 'Permanent Marker', cursive;
 $primary-font: 'Ubuntu', sans-serif;
 
 @import 'header';
-@import 'social';
+// @import 'navBar';
 @import 'about';
 @import 'portfolio';
+@import 'footer';
+
 
 
 .button {

@@ -1,9 +1,9 @@
-.social {
+footer {
     @include grid-row();
     text-align: center;
     img {
         @include grid-column(3);
-        width: 65px;
+        width: 50px;
         float: none !important;
     }
 }

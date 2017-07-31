@@ -6,37 +6,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Ubuntu:400,700" rel="stylesheet">
-    <script src="app.js"></script>
+    <!--<script src="app.js"></script>-->
 </head>
 
 <body>
     <header>
-        <!--<img src="assets/headshot.jpg">-->
         <h1>colby martin</h1>
         <h5>Front-End Web Developer // Charlotte, NC</h5>
+        <ul class="menu">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
     </header>
-    <section class="social">
-        <a href="https://github.com/colbymartin"><img class='icon' src="assets/github.png"></a>
-        <a href="https://www.linkedin.com/in/colbym/"><img class='icon' src="assets/linkedin.png"></a>
-        <a href="mailto:colbymartin1003@gmail.com"><img class='icon' src="assets/mail.png"></a>
-        <a href="https://www.facebook.com/colby.r.martin"><img class='icon' src="assets/facebook.png"></a>
-        <!--<button>About Me</button>-->
-    </section>
     <section class="about">
+        <h3>Meet Colby</h3>
+        <img src="assets/headshot.jpg">
         <p class="tag">Apart from writing clean code, I'm passionate about being a good neighbor, absurd comedy, and adventuring through life with my ex-girlfriend (now wife).</p>
-        <!--<div>
-            <p>SKILLZ</p>
-            <p>I I'm pretty good with a bow-staff along with..."</p>
-        </div>-->
-        <button class="skillsBtn button">Skills</button>
-        <br>
-        <button class="portBtn button">Portfolio</button>
+        <section class="currently">
+            <p>This Month, I'm...</p>
+            <p>Learning:</p>
+            <ul>
+                <li>React.JS Framework</li>
+                <li>Karma Testing (for Angular Applications)</li>
+                <li>Improv Level 1 (If you are in charlotte, check out Charlotte Comedy Theatre!)</li>
+            </ul>
+            <p>Listening to:</p>
+            <ul>
+                <li>The Killers (prepping for new album)</li>
+                <li>Phish Summer Tour</li>
+                <li>U2 (Always)</li>
+            </ul>
+            <p>Reading:</p>
+            <ul>
+                <li>"U2 at the End of the World" by Bill Flanagan</li>
+            </ul>
+
+        </section>
+
     </section>
-    <section class="skills hide">
-        <p>I I'm pretty good with a bow-staff along with..."</p>
-        <p>where I talk about ma skillz</p>
-    </section>
-    <section class="portfolio hide">
+    <section class="portfolio">
         <div class="teeup">
             <div class="teeupLogo">
                 <img src="assets/teeup_logo.png">
@@ -80,21 +89,13 @@
                 <a class="button" href="https://martintaxi.surge.sh">Code</a>
             </div>
         </div>
-        <!--<a href="https://teeup.surge.sh">
-            <div>Testing</div>
-        </a>
-        <a href="https://martintaxi.surge.sh">
-            <img src="assets/taxi.png">
-        </a>
-        <a href="https://githubcheck.surge.sh">
-            <img src="assets/tracker.png">
-        </a>-->
     </section>
-    <section class="quotes">
-        <h2>Favorite Quotes</h2>
-        <h2>"It's ok! I'm a Limo Driver"</h2>
-        <p> - Lloyd Christmas</p>
-    </section>
+    <footer> 
+        <a href="https://github.com/colbymartin"><img class='icon' src="assets/github.png"></a>
+        <a href="https://www.linkedin.com/in/colbym/"><img class='icon' src="assets/linkedin.png"></a>
+        <a href="mailto:colbymartin1003@gmail.com"><img class='icon' src="assets/mail.png"></a>
+        <a href="https://www.facebook.com/colby.r.martin"><img class='icon' src="assets/facebook.png"></a>
+    </footer>
 </body>
 
 </html>

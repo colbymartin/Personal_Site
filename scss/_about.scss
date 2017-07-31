@@ -1,10 +1,15 @@
 .about {
     text-align: center;
     font-family: $primary-font;
+    img {
+        border-radius: 50%;
+        width: 200px;   
+        border: 5px solid #1D1160; 
+    }
     .tag {
         padding: 0 10% 0 10%;
     }
-    .button {
-        margin: 10px 0 10px 0;
+    .currently {
+        text-align: left;
     }
 }
