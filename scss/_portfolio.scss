@@ -1,6 +1,11 @@
-.portfolio {
+#portfolio {
     font-family: $primary-font;
-    color: white;
+    // color: white;
+    h2 {
+        text-align: center;
+        font-family: $header-font;
+        margin-bottom: 0;
+    }
     div {
         background-color: #008ca8;
         padding: 10px 2px 5px 2px;

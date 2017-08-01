@@ -1,9 +1,23 @@
 footer {
-    @include grid-row();
-    text-align: center;
-    img {
-        @include grid-column(3);
-        width: 50px;
-        float: none !important;
+    h2 {
+        text-align: center;
+        font-family: $header-font;
+    }
+    .message, .contactInfo {
+        padding: 0 10% 0 10%;
+        text-align: center; 
+    }
+    .contactInfo {
+        padding: 0 10% 0 10%;
+    }
+    .social {
+        @include grid-row();
+        text-align: center;
+        margin-bottom: 20px;
+        img {
+            @include grid-column(3);
+            width: 50px;
+            float: none !important;
+        }
     }
 }
