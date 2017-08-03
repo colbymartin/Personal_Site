@@ -44,3 +44,22 @@ body {
             // border-bottom: 5px solid #1D1160;
         }
 }
+
+@media (min-width: 770px) {
+    body {
+        header {
+            h1 {
+                font-size: 75px;
+            }
+            h5 {
+                font-size: 35px;
+            }
+            .menu {
+                padding: 25vh;
+                li {
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}

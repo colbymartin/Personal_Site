@@ -29,5 +29,35 @@
         ul {
             margin: 0;
         }
+        #theatre {
+            text-decoration: none;
+            color: blue;
+        }
+    }
+}
+
+@media (min-width: 770px) {
+    #about {
+        @include grid-row();
+        h2 {
+            font-size: 35px;
+        }
+        .aboutLeft {
+            @include grid-column(6);
+            img {
+                width: 250px;
+            }
+            p {
+                font-size: 1.2em;
+                padding: 0 15% 0 15%;
+                font-style: italic;
+            }
+        }
+        .currently {
+            @include grid-column(6);
+            h4 {
+                font-size: 25px;
+            }
+        }
     }
 }

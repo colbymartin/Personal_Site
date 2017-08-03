@@ -9,6 +9,9 @@ footer {
     }
     .contactInfo {
         padding: 0 10% 0 10%;
+        .contactIcon {
+            width: 15px;
+        }
     }
     .social {
         @include grid-row();
@@ -16,8 +19,27 @@ footer {
         margin-bottom: 20px;
         img {
             @include grid-column(3);
-            width: 50px;
+            width: 70px;
             float: none !important;
+        }
+    }
+}
+
+@media (min-width: 770px) {
+    footer {
+        height: 40vh;
+        h2 {
+            font-size: 35px;
+        }
+        .footerInfo {
+            @include grid-row();
+            .message {
+                @include grid-column(6);
+                font-size: 1.2em;   
+            }
+            .contactInfo {
+                @include grid-column(6);
+            }
         }
     }
 }
